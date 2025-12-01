@@ -1,0 +1,17 @@
+- id: day
+  label: Day shift
+  start: "08:00"
+  end: "16:00"
+  required_skills: ["doctor", "nurse"]
+
+- id: evening
+  label: Evening shift
+  start: "16:00"
+  end: "00:00"
+  required_skills: ["doctor", "nurse"]
+
+- id: night
+  label: Night shift
+  start: "00:00"
+  end: "08:00"
+  required_skills: ["doctor", "nurse", "er"]

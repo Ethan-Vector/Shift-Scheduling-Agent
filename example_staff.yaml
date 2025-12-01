@@ -1,0 +1,19 @@
+- id: doc1
+  name: Dr. Rossi
+  skills: ["doctor", "er"]
+  max_hours_per_week: 48
+
+- id: doc2
+  name: Dr. Bianchi
+  skills: ["doctor"]
+  max_hours_per_week: 40
+
+- id: nurse1
+  name: Nurse Verdi
+  skills: ["nurse", "er"]
+  max_hours_per_week: 40
+
+- id: nurse2
+  name: Nurse Neri
+  skills: ["nurse"]
+  max_hours_per_week: 36
