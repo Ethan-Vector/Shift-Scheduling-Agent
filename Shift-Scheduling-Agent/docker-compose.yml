@@ -1,0 +1,7 @@
+services:
+  shift-agent:
+    build: .
+    volumes:
+      - ./workspace:/app/workspace
+      - ./outputs:/app/outputs
+    command: ["shift-agent", "generate", "--config", "configs/sample_week.json", "--out", "outputs/schedule.json"]
